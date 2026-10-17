@@ -37,7 +37,3 @@ python 6_bootstrap_test.py
 Do not rerun `0a_prepare_dataset.py` after the split has been used; it regenerates the split (the one used in the paper is in `split_manifest.csv`). Phases are resumable.
 Tested with Python 3.13, Ultralytics 8.4.180, PyTorch 2.11.0, Albumentations 2.0.8.
 
-## Data and licence
-
-Images come from the Roboflow Universe project `goat-qxgzi/goat-twi81` and have different source licences; check the terms of each image before republishing it.
-Code: MIT License (`LICENSE`), which does not cover the images.
