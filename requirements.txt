@@ -1,0 +1,15 @@
+# Versions are not pinned here. Pin the ones you actually used before publishing:
+#   pip freeze | grep -i -E "ultralytics|torch|albumentations|numpy|pandas|scipy|scikit-learn|roboflow|imagehash|transformers"
+# The code was written against Ultralytics 8.4.x (YOLO26 support; cls_pw argument).
+ultralytics>=8.4
+torch
+albumentations
+numpy
+pandas
+scipy
+scikit-learn
+pyyaml
+pillow
+imagehash
+roboflow            # only for downloading the dataset through the API (0a_prepare_dataset.py without --source)
+transformers        # only for the DINOv2 embedding backend (similarity.py, EMBED_BACKEND = "dinov2")
